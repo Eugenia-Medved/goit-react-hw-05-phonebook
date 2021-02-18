@@ -82,7 +82,7 @@ class App extends Component {
 
     return (
       <>
-        <CSSTransition in={showAlert} timeout={250} classNames="Alert" unmountOnExit>
+        <CSSTransition in={showAlert} timeout={500} classNames="Alert" unmountOnExit>
           <Alert message={message} />
         </CSSTransition>
         <Container>
